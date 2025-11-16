@@ -1,0 +1,7 @@
+package JavaIntroducao.Aula07;
+
+public class OlaDevDojo {
+    public static void main(String[] args) {
+        System.out.println("Ola Dev Dojo");
+    }
+}
