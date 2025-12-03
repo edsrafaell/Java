@@ -1,10 +1,9 @@
 public class Metodos08Escopo {
-    public class Main {
-    int x = 5; // Class variable
+    //Variaveis criada na classe principal, pode ser ultilizado por outras classes
+int x = 5; // Class variable
 
     public static void main(String[] args) {
-        Main myObj = new Main();
+        Metodos08Escopo myObj = new Metodos08Escopo();
         System.out.println(myObj.x); // Accessible here
-    }
     }
 }
